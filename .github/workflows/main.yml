@@ -25,5 +25,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
+      - name: Rails Tests
+        run: APPMAP=true bundle exec rake test
+
       - name: AppLand
         run: npx @appland/scanner ci -d tmp/appmap
