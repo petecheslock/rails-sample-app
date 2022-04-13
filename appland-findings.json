@@ -43,52 +43,6 @@
     ]
   },
   "appMapMetadata": {
-    "tmp/appmap/minitest/Following_following_page.appmap.json": {
-      "app": "petecheslock@gmail.com/rails-sample",
-      "language": {
-        "name": "ruby",
-        "engine": "ruby",
-        "version": "2.7.5"
-      },
-      "client": {
-        "name": "appmap",
-        "url": "https://github.com/applandinc/appmap-ruby",
-        "version": "0.78.0"
-      },
-      "frameworks": [
-        {
-          "name": "rails",
-          "version": "6.1.4.6"
-        },
-        {
-          "name": "minitest",
-          "version": "5.11.3"
-        }
-      ],
-      "git": {
-        "repository": "git@github.com:petecheslock/rails-sample-app.git",
-        "branch": "main",
-        "commit": "349f5909dfb65e9fe6c621a26be514b0ede66d8e",
-        "status": [
-          "M Gemfile",
-          "M Gemfile.lock",
-          "M package.json",
-          "M yarn.lock",
-          "?? appland-findings.json",
-          "?? appmap.yml"
-        ],
-        "git_last_annotated_tag": null,
-        "git_last_tag": null,
-        "git_commits_since_last_annotated_tag": null,
-        "git_commits_since_last_tag": null
-      },
-      "name": "Following following page",
-      "source_location": "/Users/petecheslock/repos/rails-sample/test/integration/following_test.rb:11",
-      "recorder": {
-        "name": "minitest"
-      },
-      "test_status": "succeeded"
-    },
     "tmp/appmap/minitest/Following_followers_page.appmap.json": {
       "app": "petecheslock@gmail.com/rails-sample",
       "language": {
@@ -135,7 +89,7 @@
       },
       "test_status": "succeeded"
     },
-    "tmp/appmap/minitest/Following_should_follow_a_user_the_standard_way.appmap.json": {
+    "tmp/appmap/minitest/Following_following_page.appmap.json": {
       "app": "petecheslock@gmail.com/rails-sample",
       "language": {
         "name": "ruby",
@@ -174,8 +128,8 @@
         "git_commits_since_last_annotated_tag": null,
         "git_commits_since_last_tag": null
       },
-      "name": "Following should follow a user the standard way",
-      "source_location": "/Users/petecheslock/repos/rails-sample/test/integration/following_test.rb:29",
+      "name": "Following following page",
+      "source_location": "/Users/petecheslock/repos/rails-sample/test/integration/following_test.rb:11",
       "recorder": {
         "name": "minitest"
       },
@@ -222,6 +176,52 @@
       },
       "name": "Following should follow a user with Ajax",
       "source_location": "/Users/petecheslock/repos/rails-sample/test/integration/following_test.rb:35",
+      "recorder": {
+        "name": "minitest"
+      },
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Following_should_follow_a_user_the_standard_way.appmap.json": {
+      "app": "petecheslock@gmail.com/rails-sample",
+      "language": {
+        "name": "ruby",
+        "engine": "ruby",
+        "version": "2.7.5"
+      },
+      "client": {
+        "name": "appmap",
+        "url": "https://github.com/applandinc/appmap-ruby",
+        "version": "0.78.0"
+      },
+      "frameworks": [
+        {
+          "name": "rails",
+          "version": "6.1.4.6"
+        },
+        {
+          "name": "minitest",
+          "version": "5.11.3"
+        }
+      ],
+      "git": {
+        "repository": "git@github.com:petecheslock/rails-sample-app.git",
+        "branch": "main",
+        "commit": "349f5909dfb65e9fe6c621a26be514b0ede66d8e",
+        "status": [
+          "M Gemfile",
+          "M Gemfile.lock",
+          "M package.json",
+          "M yarn.lock",
+          "?? appland-findings.json",
+          "?? appmap.yml"
+        ],
+        "git_last_annotated_tag": null,
+        "git_last_tag": null,
+        "git_commits_since_last_annotated_tag": null,
+        "git_commits_since_last_tag": null
+      },
+      "name": "Following should follow a user the standard way",
+      "source_location": "/Users/petecheslock/repos/rails-sample/test/integration/following_test.rb:29",
       "recorder": {
         "name": "minitest"
       },
@@ -595,52 +595,6 @@
       },
       "test_status": "succeeded"
     },
-    "tmp/appmap/minitest/Microposts_controller_should_redirect_destroy_for_wrong_micropost.appmap.json": {
-      "app": "petecheslock@gmail.com/rails-sample",
-      "language": {
-        "name": "ruby",
-        "engine": "ruby",
-        "version": "2.7.5"
-      },
-      "client": {
-        "name": "appmap",
-        "url": "https://github.com/applandinc/appmap-ruby",
-        "version": "0.78.0"
-      },
-      "frameworks": [
-        {
-          "name": "rails",
-          "version": "6.1.4.6"
-        },
-        {
-          "name": "minitest",
-          "version": "5.11.3"
-        }
-      ],
-      "git": {
-        "repository": "git@github.com:petecheslock/rails-sample-app.git",
-        "branch": "main",
-        "commit": "349f5909dfb65e9fe6c621a26be514b0ede66d8e",
-        "status": [
-          "M Gemfile",
-          "M Gemfile.lock",
-          "M package.json",
-          "M yarn.lock",
-          "?? appland-findings.json",
-          "?? appmap.yml"
-        ],
-        "git_last_annotated_tag": null,
-        "git_last_tag": null,
-        "git_commits_since_last_annotated_tag": null,
-        "git_commits_since_last_tag": null
-      },
-      "name": "Microposts_controller should redirect destroy for wrong micropost",
-      "source_location": "/Users/petecheslock/repos/rails-sample/test/controllers/microposts_controller_test.rb:23",
-      "recorder": {
-        "name": "minitest"
-      },
-      "test_status": "succeeded"
-    },
     "tmp/appmap/minitest/Microposts_controller_should_redirect_destroy_when_not_logged_in.appmap.json": {
       "app": "petecheslock@gmail.com/rails-sample",
       "language": {
@@ -682,6 +636,52 @@
       },
       "name": "Microposts_controller should redirect destroy when not logged in",
       "source_location": "/Users/petecheslock/repos/rails-sample/test/controllers/microposts_controller_test.rb:16",
+      "recorder": {
+        "name": "minitest"
+      },
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Microposts_controller_should_redirect_destroy_for_wrong_micropost.appmap.json": {
+      "app": "petecheslock@gmail.com/rails-sample",
+      "language": {
+        "name": "ruby",
+        "engine": "ruby",
+        "version": "2.7.5"
+      },
+      "client": {
+        "name": "appmap",
+        "url": "https://github.com/applandinc/appmap-ruby",
+        "version": "0.78.0"
+      },
+      "frameworks": [
+        {
+          "name": "rails",
+          "version": "6.1.4.6"
+        },
+        {
+          "name": "minitest",
+          "version": "5.11.3"
+        }
+      ],
+      "git": {
+        "repository": "git@github.com:petecheslock/rails-sample-app.git",
+        "branch": "main",
+        "commit": "349f5909dfb65e9fe6c621a26be514b0ede66d8e",
+        "status": [
+          "M Gemfile",
+          "M Gemfile.lock",
+          "M package.json",
+          "M yarn.lock",
+          "?? appland-findings.json",
+          "?? appmap.yml"
+        ],
+        "git_last_annotated_tag": null,
+        "git_last_tag": null,
+        "git_commits_since_last_annotated_tag": null,
+        "git_commits_since_last_tag": null
+      },
+      "name": "Microposts_controller should redirect destroy for wrong micropost",
+      "source_location": "/Users/petecheslock/repos/rails-sample/test/controllers/microposts_controller_test.rb:23",
       "recorder": {
         "name": "minitest"
       },
@@ -779,52 +779,6 @@
       },
       "test_status": "succeeded"
     },
-    "tmp/appmap/minitest/Relationship_should_be_valid.appmap.json": {
-      "app": "petecheslock@gmail.com/rails-sample",
-      "language": {
-        "name": "ruby",
-        "engine": "ruby",
-        "version": "2.7.5"
-      },
-      "client": {
-        "name": "appmap",
-        "url": "https://github.com/applandinc/appmap-ruby",
-        "version": "0.78.0"
-      },
-      "frameworks": [
-        {
-          "name": "rails",
-          "version": "6.1.4.6"
-        },
-        {
-          "name": "minitest",
-          "version": "5.11.3"
-        }
-      ],
-      "git": {
-        "repository": "git@github.com:petecheslock/rails-sample-app.git",
-        "branch": "main",
-        "commit": "349f5909dfb65e9fe6c621a26be514b0ede66d8e",
-        "status": [
-          "M Gemfile",
-          "M Gemfile.lock",
-          "M package.json",
-          "M yarn.lock",
-          "?? appland-findings.json",
-          "?? appmap.yml"
-        ],
-        "git_last_annotated_tag": null,
-        "git_last_tag": null,
-        "git_commits_since_last_annotated_tag": null,
-        "git_commits_since_last_tag": null
-      },
-      "name": "Relationship should be valid",
-      "source_location": "/Users/petecheslock/repos/rails-sample/test/models/relationship_test.rb:10",
-      "recorder": {
-        "name": "minitest"
-      },
-      "test_status": "succeeded"
-    },
     "tmp/appmap/minitest/Relationship_should_require_a_followed_id.appmap.json": {
       "app": "petecheslock@gmail.com/rails-sample",
       "language": {
@@ -866,6 +820,52 @@
       },
       "name": "Relationship should require a followed id",
       "source_location": "/Users/petecheslock/repos/rails-sample/test/models/relationship_test.rb:19",
+      "recorder": {
+        "name": "minitest"
+      },
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Relationship_should_be_valid.appmap.json": {
+      "app": "petecheslock@gmail.com/rails-sample",
+      "language": {
+        "name": "ruby",
+        "engine": "ruby",
+        "version": "2.7.5"
+      },
+      "client": {
+        "name": "appmap",
+        "url": "https://github.com/applandinc/appmap-ruby",
+        "version": "0.78.0"
+      },
+      "frameworks": [
+        {
+          "name": "rails",
+          "version": "6.1.4.6"
+        },
+        {
+          "name": "minitest",
+          "version": "5.11.3"
+        }
+      ],
+      "git": {
+        "repository": "git@github.com:petecheslock/rails-sample-app.git",
+        "branch": "main",
+        "commit": "349f5909dfb65e9fe6c621a26be514b0ede66d8e",
+        "status": [
+          "M Gemfile",
+          "M Gemfile.lock",
+          "M package.json",
+          "M yarn.lock",
+          "?? appland-findings.json",
+          "?? appmap.yml"
+        ],
+        "git_last_annotated_tag": null,
+        "git_last_tag": null,
+        "git_commits_since_last_annotated_tag": null,
+        "git_commits_since_last_tag": null
+      },
+      "name": "Relationship should be valid",
+      "source_location": "/Users/petecheslock/repos/rails-sample/test/models/relationship_test.rb:10",
       "recorder": {
         "name": "minitest"
       },
@@ -1423,52 +1423,6 @@
       },
       "test_status": "succeeded"
     },
-    "tmp/appmap/minitest/User_email_addresses_should_be_unique.appmap.json": {
-      "app": "petecheslock@gmail.com/rails-sample",
-      "language": {
-        "name": "ruby",
-        "engine": "ruby",
-        "version": "2.7.5"
-      },
-      "client": {
-        "name": "appmap",
-        "url": "https://github.com/applandinc/appmap-ruby",
-        "version": "0.78.0"
-      },
-      "frameworks": [
-        {
-          "name": "rails",
-          "version": "6.1.4.6"
-        },
-        {
-          "name": "minitest",
-          "version": "5.11.3"
-        }
-      ],
-      "git": {
-        "repository": "git@github.com:petecheslock/rails-sample-app.git",
-        "branch": "main",
-        "commit": "349f5909dfb65e9fe6c621a26be514b0ede66d8e",
-        "status": [
-          "M Gemfile",
-          "M Gemfile.lock",
-          "M package.json",
-          "M yarn.lock",
-          "?? appland-findings.json",
-          "?? appmap.yml"
-        ],
-        "git_last_annotated_tag": null,
-        "git_last_tag": null,
-        "git_commits_since_last_annotated_tag": null,
-        "git_commits_since_last_tag": null
-      },
-      "name": "User email addresses should be unique",
-      "source_location": "/Users/petecheslock/repos/rails-sample/test/models/user_test.rb:52",
-      "recorder": {
-        "name": "minitest"
-      },
-      "test_status": "succeeded"
-    },
     "tmp/appmap/minitest/User_authenticated_should_return_false_for_a_user_with_nil_digest.appmap.json": {
       "app": "petecheslock@gmail.com/rails-sample",
       "language": {
@@ -1515,7 +1469,7 @@
       },
       "test_status": "succeeded"
     },
-    "tmp/appmap/minitest/User_email_should_not_be_too_long.appmap.json": {
+    "tmp/appmap/minitest/User_email_addresses_should_be_unique.appmap.json": {
       "app": "petecheslock@gmail.com/rails-sample",
       "language": {
         "name": "ruby",
@@ -1554,8 +1508,8 @@
         "git_commits_since_last_annotated_tag": null,
         "git_commits_since_last_tag": null
       },
-      "name": "User email should not be too long",
-      "source_location": "/Users/petecheslock/repos/rails-sample/test/models/user_test.rb:29",
+      "name": "User email addresses should be unique",
+      "source_location": "/Users/petecheslock/repos/rails-sample/test/models/user_test.rb:52",
       "recorder": {
         "name": "minitest"
       },
@@ -1602,6 +1556,52 @@
       },
       "name": "User email should be present",
       "source_location": "/Users/petecheslock/repos/rails-sample/test/models/user_test.rb:19",
+      "recorder": {
+        "name": "minitest"
+      },
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/User_email_should_not_be_too_long.appmap.json": {
+      "app": "petecheslock@gmail.com/rails-sample",
+      "language": {
+        "name": "ruby",
+        "engine": "ruby",
+        "version": "2.7.5"
+      },
+      "client": {
+        "name": "appmap",
+        "url": "https://github.com/applandinc/appmap-ruby",
+        "version": "0.78.0"
+      },
+      "frameworks": [
+        {
+          "name": "rails",
+          "version": "6.1.4.6"
+        },
+        {
+          "name": "minitest",
+          "version": "5.11.3"
+        }
+      ],
+      "git": {
+        "repository": "git@github.com:petecheslock/rails-sample-app.git",
+        "branch": "main",
+        "commit": "349f5909dfb65e9fe6c621a26be514b0ede66d8e",
+        "status": [
+          "M Gemfile",
+          "M Gemfile.lock",
+          "M package.json",
+          "M yarn.lock",
+          "?? appland-findings.json",
+          "?? appmap.yml"
+        ],
+        "git_last_annotated_tag": null,
+        "git_last_tag": null,
+        "git_commits_since_last_annotated_tag": null,
+        "git_commits_since_last_tag": null
+      },
+      "name": "User email should not be too long",
+      "source_location": "/Users/petecheslock/repos/rails-sample/test/models/user_test.rb:29",
       "recorder": {
         "name": "minitest"
       },
@@ -1791,52 +1791,6 @@
       },
       "test_status": "succeeded"
     },
-    "tmp/appmap/minitest/User_name_should_be_present.appmap.json": {
-      "app": "petecheslock@gmail.com/rails-sample",
-      "language": {
-        "name": "ruby",
-        "engine": "ruby",
-        "version": "2.7.5"
-      },
-      "client": {
-        "name": "appmap",
-        "url": "https://github.com/applandinc/appmap-ruby",
-        "version": "0.78.0"
-      },
-      "frameworks": [
-        {
-          "name": "rails",
-          "version": "6.1.4.6"
-        },
-        {
-          "name": "minitest",
-          "version": "5.11.3"
-        }
-      ],
-      "git": {
-        "repository": "git@github.com:petecheslock/rails-sample-app.git",
-        "branch": "main",
-        "commit": "349f5909dfb65e9fe6c621a26be514b0ede66d8e",
-        "status": [
-          "M Gemfile",
-          "M Gemfile.lock",
-          "M package.json",
-          "M yarn.lock",
-          "?? appland-findings.json",
-          "?? appmap.yml"
-        ],
-        "git_last_annotated_tag": null,
-        "git_last_tag": null,
-        "git_commits_since_last_annotated_tag": null,
-        "git_commits_since_last_tag": null
-      },
-      "name": "User name should be present",
-      "source_location": "/Users/petecheslock/repos/rails-sample/test/models/user_test.rb:14",
-      "recorder": {
-        "name": "minitest"
-      },
-      "test_status": "succeeded"
-    },
     "tmp/appmap/minitest/User_mailer_password_reset.appmap.json": {
       "app": "petecheslock@gmail.com/rails-sample",
       "language": {
@@ -1883,7 +1837,7 @@
       },
       "test_status": "succeeded"
     },
-    "tmp/appmap/minitest/User_name_should_not_be_too_long.appmap.json": {
+    "tmp/appmap/minitest/User_name_should_be_present.appmap.json": {
       "app": "petecheslock@gmail.com/rails-sample",
       "language": {
         "name": "ruby",
@@ -1922,8 +1876,8 @@
         "git_commits_since_last_annotated_tag": null,
         "git_commits_since_last_tag": null
       },
-      "name": "User name should not be too long",
-      "source_location": "/Users/petecheslock/repos/rails-sample/test/models/user_test.rb:24",
+      "name": "User name should be present",
+      "source_location": "/Users/petecheslock/repos/rails-sample/test/models/user_test.rb:14",
       "recorder": {
         "name": "minitest"
       },
@@ -1970,6 +1924,52 @@
       },
       "name": "User password should be present (nonblank)",
       "source_location": "/Users/petecheslock/repos/rails-sample/test/models/user_test.rb:58",
+      "recorder": {
+        "name": "minitest"
+      },
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/User_name_should_not_be_too_long.appmap.json": {
+      "app": "petecheslock@gmail.com/rails-sample",
+      "language": {
+        "name": "ruby",
+        "engine": "ruby",
+        "version": "2.7.5"
+      },
+      "client": {
+        "name": "appmap",
+        "url": "https://github.com/applandinc/appmap-ruby",
+        "version": "0.78.0"
+      },
+      "frameworks": [
+        {
+          "name": "rails",
+          "version": "6.1.4.6"
+        },
+        {
+          "name": "minitest",
+          "version": "5.11.3"
+        }
+      ],
+      "git": {
+        "repository": "git@github.com:petecheslock/rails-sample-app.git",
+        "branch": "main",
+        "commit": "349f5909dfb65e9fe6c621a26be514b0ede66d8e",
+        "status": [
+          "M Gemfile",
+          "M Gemfile.lock",
+          "M package.json",
+          "M yarn.lock",
+          "?? appland-findings.json",
+          "?? appmap.yml"
+        ],
+        "git_last_annotated_tag": null,
+        "git_last_tag": null,
+        "git_commits_since_last_annotated_tag": null,
+        "git_commits_since_last_tag": null
+      },
+      "name": "User name should not be too long",
+      "source_location": "/Users/petecheslock/repos/rails-sample/test/models/user_test.rb:24",
       "recorder": {
         "name": "minitest"
       },
@@ -2251,52 +2251,6 @@
       },
       "test_status": "succeeded"
     },
-    "tmp/appmap/minitest/Users_controller_should_redirect_edit_when_logged_in_as_wrong_user.appmap.json": {
-      "app": "petecheslock@gmail.com/rails-sample",
-      "language": {
-        "name": "ruby",
-        "engine": "ruby",
-        "version": "2.7.5"
-      },
-      "client": {
-        "name": "appmap",
-        "url": "https://github.com/applandinc/appmap-ruby",
-        "version": "0.78.0"
-      },
-      "frameworks": [
-        {
-          "name": "rails",
-          "version": "6.1.4.6"
-        },
-        {
-          "name": "minitest",
-          "version": "5.11.3"
-        }
-      ],
-      "git": {
-        "repository": "git@github.com:petecheslock/rails-sample-app.git",
-        "branch": "main",
-        "commit": "349f5909dfb65e9fe6c621a26be514b0ede66d8e",
-        "status": [
-          "M Gemfile",
-          "M Gemfile.lock",
-          "M package.json",
-          "M yarn.lock",
-          "?? appland-findings.json",
-          "?? appmap.yml"
-        ],
-        "git_last_annotated_tag": null,
-        "git_last_tag": null,
-        "git_commits_since_last_annotated_tag": null,
-        "git_commits_since_last_tag": null
-      },
-      "name": "Users_controller should redirect edit when logged in as wrong user",
-      "source_location": "/Users/petecheslock/repos/rails-sample/test/controllers/users_controller_test.rb:33",
-      "recorder": {
-        "name": "minitest"
-      },
-      "test_status": "succeeded"
-    },
     "tmp/appmap/minitest/Users_controller_should_redirect_edit_when_not_logged_in.appmap.json": {
       "app": "petecheslock@gmail.com/rails-sample",
       "language": {
@@ -2343,7 +2297,7 @@
       },
       "test_status": "succeeded"
     },
-    "tmp/appmap/minitest/Users_controller_should_redirect_following_when_not_logged_in.appmap.json": {
+    "tmp/appmap/minitest/Users_controller_should_redirect_edit_when_logged_in_as_wrong_user.appmap.json": {
       "app": "petecheslock@gmail.com/rails-sample",
       "language": {
         "name": "ruby",
@@ -2382,8 +2336,8 @@
         "git_commits_since_last_annotated_tag": null,
         "git_commits_since_last_tag": null
       },
-      "name": "Users_controller should redirect following when not logged in",
-      "source_location": "/Users/petecheslock/repos/rails-sample/test/controllers/users_controller_test.rb:63",
+      "name": "Users_controller should redirect edit when logged in as wrong user",
+      "source_location": "/Users/petecheslock/repos/rails-sample/test/controllers/users_controller_test.rb:33",
       "recorder": {
         "name": "minitest"
       },
@@ -2430,6 +2384,52 @@
       },
       "name": "Users_controller should redirect followers when not logged in",
       "source_location": "/Users/petecheslock/repos/rails-sample/test/controllers/users_controller_test.rb:68",
+      "recorder": {
+        "name": "minitest"
+      },
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_controller_should_redirect_following_when_not_logged_in.appmap.json": {
+      "app": "petecheslock@gmail.com/rails-sample",
+      "language": {
+        "name": "ruby",
+        "engine": "ruby",
+        "version": "2.7.5"
+      },
+      "client": {
+        "name": "appmap",
+        "url": "https://github.com/applandinc/appmap-ruby",
+        "version": "0.78.0"
+      },
+      "frameworks": [
+        {
+          "name": "rails",
+          "version": "6.1.4.6"
+        },
+        {
+          "name": "minitest",
+          "version": "5.11.3"
+        }
+      ],
+      "git": {
+        "repository": "git@github.com:petecheslock/rails-sample-app.git",
+        "branch": "main",
+        "commit": "349f5909dfb65e9fe6c621a26be514b0ede66d8e",
+        "status": [
+          "M Gemfile",
+          "M Gemfile.lock",
+          "M package.json",
+          "M yarn.lock",
+          "?? appland-findings.json",
+          "?? appmap.yml"
+        ],
+        "git_last_annotated_tag": null,
+        "git_last_tag": null,
+        "git_commits_since_last_annotated_tag": null,
+        "git_commits_since_last_tag": null
+      },
+      "name": "Users_controller should redirect following when not logged in",
+      "source_location": "/Users/petecheslock/repos/rails-sample/test/controllers/users_controller_test.rb:63",
       "recorder": {
         "name": "minitest"
       },
@@ -3081,924 +3081,6 @@
     }
   },
   "findings": [
-    {
-      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
-      "checkId": "n-plus-one-query",
-      "ruleId": "n-plus-one-query",
-      "ruleTitle": "N plus 1 SQL query",
-      "event": {
-        "id": 182,
-        "event": "call",
-        "thread_id": 4260,
-        "sql_query": {
-          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-          "database_type": "sqlite",
-          "server_version": "3.38.2"
-        }
-      },
-      "hash": "3f613b50dced1e74470e192f080e31374e00520c812945de867da4fcd8e09c65",
-      "stack": [
-        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/callbacks.rb:511",
-        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
-      ],
-      "scope": {
-        "id": 149,
-        "event": "call",
-        "thread_id": 4260,
-        "http_server_request": {
-          "request_method": "GET",
-          "path_info": "/users/762146111/following",
-          "normalized_path_info": "/users/{id}/following",
-          "headers": {
-            "Host": "www.example.com",
-            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
-            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
-            "Content-Length": "0"
-          }
-        }
-      },
-      "message": "9 occurrences of SQL: SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-      "groupMessage": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-      "occurranceCount": 9,
-      "relatedEvents": [
-        {
-          "id": 182,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 192,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 249,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 259,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 269,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 279,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 310,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 320,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 330,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        }
-      ]
-    },
-    {
-      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
-      "checkId": "query-from-view",
-      "ruleId": "query-from-view",
-      "ruleTitle": "Queries from view",
-      "event": {
-        "id": 211,
-        "event": "call",
-        "thread_id": 4260,
-        "sql_query": {
-          "sql": "SELECT COUNT(*) FROM \"microposts\" WHERE \"microposts\".\"user_id\" = ?",
-          "database_type": "sqlite",
-          "server_version": "3.38.2"
-        }
-      },
-      "hash": "ff03c1e82e612f0fc833985ece49e23d48bfe467c4f814459f3d4b3761022578",
-      "stack": [
-        "app/views/users/show_follow.html.erb",
-        "app/controllers/users_controller.rb:51",
-        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
-      ],
-      "scope": {
-        "id": 149,
-        "event": "call",
-        "thread_id": 4260,
-        "http_server_request": {
-          "request_method": "GET",
-          "path_info": "/users/762146111/following",
-          "normalized_path_info": "/users/{id}/following",
-          "headers": {
-            "Host": "www.example.com",
-            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
-            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
-            "Content-Length": "0"
-          }
-        }
-      },
-      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
-      "relatedEvents": [
-        {
-          "id": 211,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT COUNT(*) FROM \"microposts\" WHERE \"microposts\".\"user_id\" = ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 194,
-          "event": "call",
-          "thread_id": 4260,
-          "defined_class": "app_views_users_show_follow_html_erb",
-          "method_id": "render",
-          "path": "app/views/users/show_follow.html.erb",
-          "static": true,
-          "receiver": {
-            "class": "ActionView::TemplateRenderer",
-            "object_id": 204600,
-            "value": "#<ActionView::TemplateRenderer:0x0000000109c43330>"
-          }
-        }
-      ]
-    },
-    {
-      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
-      "checkId": "query-from-view",
-      "ruleId": "query-from-view",
-      "ruleTitle": "Queries from view",
-      "event": {
-        "id": 218,
-        "event": "call",
-        "thread_id": 4260,
-        "sql_query": {
-          "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ?",
-          "database_type": "sqlite",
-          "server_version": "3.38.2"
-        }
-      },
-      "hash": "734ebd612781f7fec79583abf05976afacfb4ce0bc501d9a1401e842a7f7f5aa",
-      "stack": [
-        "app/views/shared/_stats.html.erb",
-        "app/views/users/show_follow.html.erb",
-        "app/controllers/users_controller.rb:51",
-        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
-      ],
-      "scope": {
-        "id": 149,
-        "event": "call",
-        "thread_id": 4260,
-        "http_server_request": {
-          "request_method": "GET",
-          "path_info": "/users/762146111/following",
-          "normalized_path_info": "/users/{id}/following",
-          "headers": {
-            "Host": "www.example.com",
-            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
-            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
-            "Content-Length": "0"
-          }
-        }
-      },
-      "message": "SQL query is invoked from invalid event app_views_shared__stats_html_erb.render, labeled mvc.template",
-      "relatedEvents": [
-        {
-          "id": 218,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 213,
-          "event": "call",
-          "thread_id": 4260,
-          "defined_class": "app_views_shared__stats_html_erb",
-          "method_id": "render",
-          "path": "app/views/shared/_stats.html.erb",
-          "static": true,
-          "receiver": {
-            "class": "ActionView::PartialRenderer",
-            "object_id": 204620,
-            "value": "#<ActionView::PartialRenderer:0x0000000109c219b0>"
-          }
-        }
-      ]
-    },
-    {
-      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
-      "checkId": "query-from-view",
-      "ruleId": "query-from-view",
-      "ruleTitle": "Queries from view",
-      "event": {
-        "id": 222,
-        "event": "call",
-        "thread_id": 4260,
-        "sql_query": {
-          "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"follower_id\" WHERE \"relationships\".\"followed_id\" = ?",
-          "database_type": "sqlite",
-          "server_version": "3.38.2"
-        }
-      },
-      "hash": "d9d1b831ad9a46e514297e3bbc02279e4a23b9d282b76c8b822b49a23a5f6ff5",
-      "stack": [
-        "app/views/shared/_stats.html.erb",
-        "app/views/users/show_follow.html.erb",
-        "app/controllers/users_controller.rb:51",
-        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
-      ],
-      "scope": {
-        "id": 149,
-        "event": "call",
-        "thread_id": 4260,
-        "http_server_request": {
-          "request_method": "GET",
-          "path_info": "/users/762146111/following",
-          "normalized_path_info": "/users/{id}/following",
-          "headers": {
-            "Host": "www.example.com",
-            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
-            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
-            "Content-Length": "0"
-          }
-        }
-      },
-      "message": "SQL query is invoked from invalid event app_views_shared__stats_html_erb.render, labeled mvc.template",
-      "relatedEvents": [
-        {
-          "id": 222,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"follower_id\" WHERE \"relationships\".\"followed_id\" = ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 213,
-          "event": "call",
-          "thread_id": 4260,
-          "defined_class": "app_views_shared__stats_html_erb",
-          "method_id": "render",
-          "path": "app/views/shared/_stats.html.erb",
-          "static": true,
-          "receiver": {
-            "class": "ActionView::PartialRenderer",
-            "object_id": 204620,
-            "value": "#<ActionView::PartialRenderer:0x0000000109c219b0>"
-          }
-        }
-      ]
-    },
-    {
-      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
-      "checkId": "query-from-view",
-      "ruleId": "query-from-view",
-      "ruleTitle": "Queries from view",
-      "event": {
-        "id": 229,
-        "event": "call",
-        "thread_id": 4260,
-        "sql_query": {
-          "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ?",
-          "database_type": "sqlite",
-          "server_version": "3.38.2"
-        }
-      },
-      "hash": "03c16dcb97bc424152726845f5882fdc4097193d91f0412e1fd611ad1cd3eb29",
-      "stack": [
-        "app/views/users/show_follow.html.erb",
-        "app/controllers/users_controller.rb:51",
-        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
-      ],
-      "scope": {
-        "id": 149,
-        "event": "call",
-        "thread_id": 4260,
-        "http_server_request": {
-          "request_method": "GET",
-          "path_info": "/users/762146111/following",
-          "normalized_path_info": "/users/{id}/following",
-          "headers": {
-            "Host": "www.example.com",
-            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
-            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
-            "Content-Length": "0"
-          }
-        }
-      },
-      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
-      "relatedEvents": [
-        {
-          "id": 229,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 194,
-          "event": "call",
-          "thread_id": 4260,
-          "defined_class": "app_views_users_show_follow_html_erb",
-          "method_id": "render",
-          "path": "app/views/users/show_follow.html.erb",
-          "static": true,
-          "receiver": {
-            "class": "ActionView::TemplateRenderer",
-            "object_id": 204600,
-            "value": "#<ActionView::TemplateRenderer:0x0000000109c43330>"
-          }
-        }
-      ]
-    },
-    {
-      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
-      "checkId": "query-from-view",
-      "ruleId": "query-from-view",
-      "ruleTitle": "Queries from view",
-      "event": {
-        "id": 234,
-        "event": "call",
-        "thread_id": 4260,
-        "sql_query": {
-          "sql": "SELECT \"users\".* FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ? LIMIT ? OFFSET ?",
-          "database_type": "sqlite",
-          "server_version": "3.38.2"
-        }
-      },
-      "hash": "976e6d5e5ac01236266bfde4ec7ab3776d4a9f3d461c0fd1d4ebaafbb42cc985",
-      "stack": [
-        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/activerecord-6.1.4.6/lib/active_record/relation.rb:248",
-        "app/views/users/show_follow.html.erb",
-        "app/controllers/users_controller.rb:51",
-        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
-      ],
-      "scope": {
-        "id": 149,
-        "event": "call",
-        "thread_id": 4260,
-        "http_server_request": {
-          "request_method": "GET",
-          "path_info": "/users/762146111/following",
-          "normalized_path_info": "/users/{id}/following",
-          "headers": {
-            "Host": "www.example.com",
-            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
-            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
-            "Content-Length": "0"
-          }
-        }
-      },
-      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
-      "relatedEvents": [
-        {
-          "id": 234,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT \"users\".* FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ? LIMIT ? OFFSET ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 194,
-          "event": "call",
-          "thread_id": 4260,
-          "defined_class": "app_views_users_show_follow_html_erb",
-          "method_id": "render",
-          "path": "app/views/users/show_follow.html.erb",
-          "static": true,
-          "receiver": {
-            "class": "ActionView::TemplateRenderer",
-            "object_id": 204600,
-            "value": "#<ActionView::TemplateRenderer:0x0000000109c43330>"
-          }
-        }
-      ]
-    },
-    {
-      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
-      "checkId": "query-from-view",
-      "ruleId": "query-from-view",
-      "ruleTitle": "Queries from view",
-      "event": {
-        "id": 249,
-        "event": "call",
-        "thread_id": 4260,
-        "sql_query": {
-          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-          "database_type": "sqlite",
-          "server_version": "3.38.2"
-        }
-      },
-      "hash": "06f403935ff1d8a3f4463e3f5cd507916d53b6f65714a6341f9f14ec92dcaa7d",
-      "stack": [
-        "app/views/users/show_follow.html.erb",
-        "app/controllers/users_controller.rb:51",
-        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
-      ],
-      "scope": {
-        "id": 149,
-        "event": "call",
-        "thread_id": 4260,
-        "http_server_request": {
-          "request_method": "GET",
-          "path_info": "/users/762146111/following",
-          "normalized_path_info": "/users/{id}/following",
-          "headers": {
-            "Host": "www.example.com",
-            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
-            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
-            "Content-Length": "0"
-          }
-        }
-      },
-      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
-      "relatedEvents": [
-        {
-          "id": 249,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 194,
-          "event": "call",
-          "thread_id": 4260,
-          "defined_class": "app_views_users_show_follow_html_erb",
-          "method_id": "render",
-          "path": "app/views/users/show_follow.html.erb",
-          "static": true,
-          "receiver": {
-            "class": "ActionView::TemplateRenderer",
-            "object_id": 204600,
-            "value": "#<ActionView::TemplateRenderer:0x0000000109c43330>"
-          }
-        }
-      ]
-    },
-    {
-      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
-      "checkId": "query-from-view",
-      "ruleId": "query-from-view",
-      "ruleTitle": "Queries from view",
-      "event": {
-        "id": 259,
-        "event": "call",
-        "thread_id": 4260,
-        "sql_query": {
-          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-          "database_type": "sqlite",
-          "server_version": "3.38.2"
-        }
-      },
-      "hash": "06f403935ff1d8a3f4463e3f5cd507916d53b6f65714a6341f9f14ec92dcaa7d",
-      "stack": [
-        "app/views/users/show_follow.html.erb",
-        "app/controllers/users_controller.rb:51",
-        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
-      ],
-      "scope": {
-        "id": 149,
-        "event": "call",
-        "thread_id": 4260,
-        "http_server_request": {
-          "request_method": "GET",
-          "path_info": "/users/762146111/following",
-          "normalized_path_info": "/users/{id}/following",
-          "headers": {
-            "Host": "www.example.com",
-            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
-            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
-            "Content-Length": "0"
-          }
-        }
-      },
-      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
-      "relatedEvents": [
-        {
-          "id": 259,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 194,
-          "event": "call",
-          "thread_id": 4260,
-          "defined_class": "app_views_users_show_follow_html_erb",
-          "method_id": "render",
-          "path": "app/views/users/show_follow.html.erb",
-          "static": true,
-          "receiver": {
-            "class": "ActionView::TemplateRenderer",
-            "object_id": 204600,
-            "value": "#<ActionView::TemplateRenderer:0x0000000109c43330>"
-          }
-        }
-      ]
-    },
-    {
-      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
-      "checkId": "query-from-view",
-      "ruleId": "query-from-view",
-      "ruleTitle": "Queries from view",
-      "event": {
-        "id": 269,
-        "event": "call",
-        "thread_id": 4260,
-        "sql_query": {
-          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-          "database_type": "sqlite",
-          "server_version": "3.38.2"
-        }
-      },
-      "hash": "06f403935ff1d8a3f4463e3f5cd507916d53b6f65714a6341f9f14ec92dcaa7d",
-      "stack": [
-        "app/views/users/show_follow.html.erb",
-        "app/controllers/users_controller.rb:51",
-        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
-      ],
-      "scope": {
-        "id": 149,
-        "event": "call",
-        "thread_id": 4260,
-        "http_server_request": {
-          "request_method": "GET",
-          "path_info": "/users/762146111/following",
-          "normalized_path_info": "/users/{id}/following",
-          "headers": {
-            "Host": "www.example.com",
-            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
-            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
-            "Content-Length": "0"
-          }
-        }
-      },
-      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
-      "relatedEvents": [
-        {
-          "id": 269,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 194,
-          "event": "call",
-          "thread_id": 4260,
-          "defined_class": "app_views_users_show_follow_html_erb",
-          "method_id": "render",
-          "path": "app/views/users/show_follow.html.erb",
-          "static": true,
-          "receiver": {
-            "class": "ActionView::TemplateRenderer",
-            "object_id": 204600,
-            "value": "#<ActionView::TemplateRenderer:0x0000000109c43330>"
-          }
-        }
-      ]
-    },
-    {
-      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
-      "checkId": "query-from-view",
-      "ruleId": "query-from-view",
-      "ruleTitle": "Queries from view",
-      "event": {
-        "id": 279,
-        "event": "call",
-        "thread_id": 4260,
-        "sql_query": {
-          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-          "database_type": "sqlite",
-          "server_version": "3.38.2"
-        }
-      },
-      "hash": "06f403935ff1d8a3f4463e3f5cd507916d53b6f65714a6341f9f14ec92dcaa7d",
-      "stack": [
-        "app/views/users/show_follow.html.erb",
-        "app/controllers/users_controller.rb:51",
-        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
-      ],
-      "scope": {
-        "id": 149,
-        "event": "call",
-        "thread_id": 4260,
-        "http_server_request": {
-          "request_method": "GET",
-          "path_info": "/users/762146111/following",
-          "normalized_path_info": "/users/{id}/following",
-          "headers": {
-            "Host": "www.example.com",
-            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
-            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
-            "Content-Length": "0"
-          }
-        }
-      },
-      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
-      "relatedEvents": [
-        {
-          "id": 279,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 194,
-          "event": "call",
-          "thread_id": 4260,
-          "defined_class": "app_views_users_show_follow_html_erb",
-          "method_id": "render",
-          "path": "app/views/users/show_follow.html.erb",
-          "static": true,
-          "receiver": {
-            "class": "ActionView::TemplateRenderer",
-            "object_id": 204600,
-            "value": "#<ActionView::TemplateRenderer:0x0000000109c43330>"
-          }
-        }
-      ]
-    },
-    {
-      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
-      "checkId": "query-from-view",
-      "ruleId": "query-from-view",
-      "ruleTitle": "Queries from view",
-      "event": {
-        "id": 310,
-        "event": "call",
-        "thread_id": 4260,
-        "sql_query": {
-          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-          "database_type": "sqlite",
-          "server_version": "3.38.2"
-        }
-      },
-      "hash": "eb164c88ef49d37804474430baeb7821741634829dc5dd66759af6153fa2e84b",
-      "stack": [
-        "app/views/layouts/_header.html.erb",
-        "app/views/users/show_follow.html.erb",
-        "app/controllers/users_controller.rb:51",
-        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
-      ],
-      "scope": {
-        "id": 149,
-        "event": "call",
-        "thread_id": 4260,
-        "http_server_request": {
-          "request_method": "GET",
-          "path_info": "/users/762146111/following",
-          "normalized_path_info": "/users/{id}/following",
-          "headers": {
-            "Host": "www.example.com",
-            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
-            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
-            "Content-Length": "0"
-          }
-        }
-      },
-      "message": "SQL query is invoked from invalid event app_views_layouts__header_html_erb.render, labeled mvc.template",
-      "relatedEvents": [
-        {
-          "id": 310,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 303,
-          "event": "call",
-          "thread_id": 4260,
-          "defined_class": "app_views_layouts__header_html_erb",
-          "method_id": "render",
-          "path": "app/views/layouts/_header.html.erb",
-          "static": true,
-          "receiver": {
-            "class": "ActionView::PartialRenderer",
-            "object_id": 204660,
-            "value": "#<ActionView::PartialRenderer:0x000000011d5db948>"
-          }
-        }
-      ]
-    },
-    {
-      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
-      "checkId": "query-from-view",
-      "ruleId": "query-from-view",
-      "ruleTitle": "Queries from view",
-      "event": {
-        "id": 320,
-        "event": "call",
-        "thread_id": 4260,
-        "sql_query": {
-          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-          "database_type": "sqlite",
-          "server_version": "3.38.2"
-        }
-      },
-      "hash": "eb164c88ef49d37804474430baeb7821741634829dc5dd66759af6153fa2e84b",
-      "stack": [
-        "app/views/layouts/_header.html.erb",
-        "app/views/users/show_follow.html.erb",
-        "app/controllers/users_controller.rb:51",
-        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
-      ],
-      "scope": {
-        "id": 149,
-        "event": "call",
-        "thread_id": 4260,
-        "http_server_request": {
-          "request_method": "GET",
-          "path_info": "/users/762146111/following",
-          "normalized_path_info": "/users/{id}/following",
-          "headers": {
-            "Host": "www.example.com",
-            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
-            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
-            "Content-Length": "0"
-          }
-        }
-      },
-      "message": "SQL query is invoked from invalid event app_views_layouts__header_html_erb.render, labeled mvc.template",
-      "relatedEvents": [
-        {
-          "id": 320,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 303,
-          "event": "call",
-          "thread_id": 4260,
-          "defined_class": "app_views_layouts__header_html_erb",
-          "method_id": "render",
-          "path": "app/views/layouts/_header.html.erb",
-          "static": true,
-          "receiver": {
-            "class": "ActionView::PartialRenderer",
-            "object_id": 204660,
-            "value": "#<ActionView::PartialRenderer:0x000000011d5db948>"
-          }
-        }
-      ]
-    },
-    {
-      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
-      "checkId": "query-from-view",
-      "ruleId": "query-from-view",
-      "ruleTitle": "Queries from view",
-      "event": {
-        "id": 330,
-        "event": "call",
-        "thread_id": 4260,
-        "sql_query": {
-          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-          "database_type": "sqlite",
-          "server_version": "3.38.2"
-        }
-      },
-      "hash": "eb164c88ef49d37804474430baeb7821741634829dc5dd66759af6153fa2e84b",
-      "stack": [
-        "app/views/layouts/_header.html.erb",
-        "app/views/users/show_follow.html.erb",
-        "app/controllers/users_controller.rb:51",
-        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
-      ],
-      "scope": {
-        "id": 149,
-        "event": "call",
-        "thread_id": 4260,
-        "http_server_request": {
-          "request_method": "GET",
-          "path_info": "/users/762146111/following",
-          "normalized_path_info": "/users/{id}/following",
-          "headers": {
-            "Host": "www.example.com",
-            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
-            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
-            "Content-Length": "0"
-          }
-        }
-      },
-      "message": "SQL query is invoked from invalid event app_views_layouts__header_html_erb.render, labeled mvc.template",
-      "relatedEvents": [
-        {
-          "id": 330,
-          "event": "call",
-          "thread_id": 4260,
-          "sql_query": {
-            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
-            "database_type": "sqlite",
-            "server_version": "3.38.2"
-          }
-        },
-        {
-          "id": 303,
-          "event": "call",
-          "thread_id": 4260,
-          "defined_class": "app_views_layouts__header_html_erb",
-          "method_id": "render",
-          "path": "app/views/layouts/_header.html.erb",
-          "static": true,
-          "receiver": {
-            "class": "ActionView::PartialRenderer",
-            "object_id": 204660,
-            "value": "#<ActionView::PartialRenderer:0x000000011d5db948>"
-          }
-        }
-      ]
-    },
     {
       "appMapFile": "tmp/appmap/minitest/Following_followers_page.appmap.json",
       "checkId": "n-plus-one-query",
@@ -4913,6 +3995,924 @@
             "class": "ActionView::PartialRenderer",
             "object_id": 194500,
             "value": "#<ActionView::PartialRenderer:0x0000000104485cd8>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
+      "checkId": "n-plus-one-query",
+      "ruleId": "n-plus-one-query",
+      "ruleTitle": "N plus 1 SQL query",
+      "event": {
+        "id": 182,
+        "event": "call",
+        "thread_id": 4260,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "3f613b50dced1e74470e192f080e31374e00520c812945de867da4fcd8e09c65",
+      "stack": [
+        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/callbacks.rb:511",
+        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 4260,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/following",
+          "normalized_path_info": "/users/{id}/following",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "9 occurrences of SQL: SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+      "groupMessage": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+      "occurranceCount": 9,
+      "relatedEvents": [
+        {
+          "id": 182,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 192,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 249,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 259,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 269,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 279,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 310,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 320,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 330,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 211,
+        "event": "call",
+        "thread_id": 4260,
+        "sql_query": {
+          "sql": "SELECT COUNT(*) FROM \"microposts\" WHERE \"microposts\".\"user_id\" = ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "ff03c1e82e612f0fc833985ece49e23d48bfe467c4f814459f3d4b3761022578",
+      "stack": [
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:51",
+        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 4260,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/following",
+          "normalized_path_info": "/users/{id}/following",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 211,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT COUNT(*) FROM \"microposts\" WHERE \"microposts\".\"user_id\" = ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 194,
+          "event": "call",
+          "thread_id": 4260,
+          "defined_class": "app_views_users_show_follow_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show_follow.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 204600,
+            "value": "#<ActionView::TemplateRenderer:0x0000000109c43330>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 218,
+        "event": "call",
+        "thread_id": 4260,
+        "sql_query": {
+          "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "734ebd612781f7fec79583abf05976afacfb4ce0bc501d9a1401e842a7f7f5aa",
+      "stack": [
+        "app/views/shared/_stats.html.erb",
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:51",
+        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 4260,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/following",
+          "normalized_path_info": "/users/{id}/following",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_shared__stats_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 218,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 213,
+          "event": "call",
+          "thread_id": 4260,
+          "defined_class": "app_views_shared__stats_html_erb",
+          "method_id": "render",
+          "path": "app/views/shared/_stats.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 204620,
+            "value": "#<ActionView::PartialRenderer:0x0000000109c219b0>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 222,
+        "event": "call",
+        "thread_id": 4260,
+        "sql_query": {
+          "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"follower_id\" WHERE \"relationships\".\"followed_id\" = ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "d9d1b831ad9a46e514297e3bbc02279e4a23b9d282b76c8b822b49a23a5f6ff5",
+      "stack": [
+        "app/views/shared/_stats.html.erb",
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:51",
+        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 4260,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/following",
+          "normalized_path_info": "/users/{id}/following",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_shared__stats_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 222,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"follower_id\" WHERE \"relationships\".\"followed_id\" = ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 213,
+          "event": "call",
+          "thread_id": 4260,
+          "defined_class": "app_views_shared__stats_html_erb",
+          "method_id": "render",
+          "path": "app/views/shared/_stats.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 204620,
+            "value": "#<ActionView::PartialRenderer:0x0000000109c219b0>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 229,
+        "event": "call",
+        "thread_id": 4260,
+        "sql_query": {
+          "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "03c16dcb97bc424152726845f5882fdc4097193d91f0412e1fd611ad1cd3eb29",
+      "stack": [
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:51",
+        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 4260,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/following",
+          "normalized_path_info": "/users/{id}/following",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 229,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 194,
+          "event": "call",
+          "thread_id": 4260,
+          "defined_class": "app_views_users_show_follow_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show_follow.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 204600,
+            "value": "#<ActionView::TemplateRenderer:0x0000000109c43330>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 234,
+        "event": "call",
+        "thread_id": 4260,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ? LIMIT ? OFFSET ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "976e6d5e5ac01236266bfde4ec7ab3776d4a9f3d461c0fd1d4ebaafbb42cc985",
+      "stack": [
+        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/activerecord-6.1.4.6/lib/active_record/relation.rb:248",
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:51",
+        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 4260,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/following",
+          "normalized_path_info": "/users/{id}/following",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 234,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ? LIMIT ? OFFSET ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 194,
+          "event": "call",
+          "thread_id": 4260,
+          "defined_class": "app_views_users_show_follow_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show_follow.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 204600,
+            "value": "#<ActionView::TemplateRenderer:0x0000000109c43330>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 249,
+        "event": "call",
+        "thread_id": 4260,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "06f403935ff1d8a3f4463e3f5cd507916d53b6f65714a6341f9f14ec92dcaa7d",
+      "stack": [
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:51",
+        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 4260,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/following",
+          "normalized_path_info": "/users/{id}/following",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 249,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 194,
+          "event": "call",
+          "thread_id": 4260,
+          "defined_class": "app_views_users_show_follow_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show_follow.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 204600,
+            "value": "#<ActionView::TemplateRenderer:0x0000000109c43330>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 259,
+        "event": "call",
+        "thread_id": 4260,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "06f403935ff1d8a3f4463e3f5cd507916d53b6f65714a6341f9f14ec92dcaa7d",
+      "stack": [
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:51",
+        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 4260,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/following",
+          "normalized_path_info": "/users/{id}/following",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 259,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 194,
+          "event": "call",
+          "thread_id": 4260,
+          "defined_class": "app_views_users_show_follow_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show_follow.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 204600,
+            "value": "#<ActionView::TemplateRenderer:0x0000000109c43330>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 269,
+        "event": "call",
+        "thread_id": 4260,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "06f403935ff1d8a3f4463e3f5cd507916d53b6f65714a6341f9f14ec92dcaa7d",
+      "stack": [
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:51",
+        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 4260,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/following",
+          "normalized_path_info": "/users/{id}/following",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 269,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 194,
+          "event": "call",
+          "thread_id": 4260,
+          "defined_class": "app_views_users_show_follow_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show_follow.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 204600,
+            "value": "#<ActionView::TemplateRenderer:0x0000000109c43330>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 279,
+        "event": "call",
+        "thread_id": 4260,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "06f403935ff1d8a3f4463e3f5cd507916d53b6f65714a6341f9f14ec92dcaa7d",
+      "stack": [
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:51",
+        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 4260,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/following",
+          "normalized_path_info": "/users/{id}/following",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 279,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 194,
+          "event": "call",
+          "thread_id": 4260,
+          "defined_class": "app_views_users_show_follow_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show_follow.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 204600,
+            "value": "#<ActionView::TemplateRenderer:0x0000000109c43330>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 310,
+        "event": "call",
+        "thread_id": 4260,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "eb164c88ef49d37804474430baeb7821741634829dc5dd66759af6153fa2e84b",
+      "stack": [
+        "app/views/layouts/_header.html.erb",
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:51",
+        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 4260,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/following",
+          "normalized_path_info": "/users/{id}/following",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_layouts__header_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 310,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 303,
+          "event": "call",
+          "thread_id": 4260,
+          "defined_class": "app_views_layouts__header_html_erb",
+          "method_id": "render",
+          "path": "app/views/layouts/_header.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 204660,
+            "value": "#<ActionView::PartialRenderer:0x000000011d5db948>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 320,
+        "event": "call",
+        "thread_id": 4260,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "eb164c88ef49d37804474430baeb7821741634829dc5dd66759af6153fa2e84b",
+      "stack": [
+        "app/views/layouts/_header.html.erb",
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:51",
+        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 4260,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/following",
+          "normalized_path_info": "/users/{id}/following",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_layouts__header_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 320,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 303,
+          "event": "call",
+          "thread_id": 4260,
+          "defined_class": "app_views_layouts__header_html_erb",
+          "method_id": "render",
+          "path": "app/views/layouts/_header.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 204660,
+            "value": "#<ActionView::PartialRenderer:0x000000011d5db948>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 330,
+        "event": "call",
+        "thread_id": 4260,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "eb164c88ef49d37804474430baeb7821741634829dc5dd66759af6153fa2e84b",
+      "stack": [
+        "app/views/layouts/_header.html.erb",
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:51",
+        "/Users/petecheslock/.asdf/installs/ruby/2.7.5/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 4260,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/following",
+          "normalized_path_info": "/users/{id}/following",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=bu0gVACVTHe3B8KHQqiDqR%2BPu1hK915FFChpSvr40miHrx0WBb7s2YSFz%2Fbpc5qRrvoxTwjV47SjRv1AAd9POQcDnuvO6wA4Hav6JP%2BrCnwIqm9VEEz%2BlxMaKpKW7I3ti22YRlNsN%2FaEU1P7tlgAOo%2FPh6fcQX1zUhFzYVVkfxONJjY7Z%2FN390yv2hnnc4FtVetXe4Bx%2BPCmC3NLjWI7RoRhkzVQ2l%2BbWIZHQw7ZeokY1jpDO9MFt3pUZDuv6J4MZla5N8UKfxpb5t%2FWWpEPCz0k6bD%2BfvhoU6XIARXKWnGVWIzb4BRHN5YJfeqqAo%2BSPCnMCYlRI5Ue3upxa%2FTHIjS91hkPjAYI04q9CRvdUQ%3D%3D--Uo3kmdAi65R%2BhdzE--DawsgaSFtAWCgVk0YZtZUA%3D%3D; remember_token=y6HYcY9ahAxGwV7hAVBXig; user_id=njkr8tY7WpTDA5HaOB8mSByODRR9D5HO25u%2Bd0XHlPEo2QQP8LnVFpPmqq5ESWYhXDQzTuQf5jd%2Bx8JEMhYSKwBXW%2FrTKmc%3D--pBziW2DSn6h2WDQv--I16YwpujpOFPL%2FeO6Wz8AQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_layouts__header_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 330,
+          "event": "call",
+          "thread_id": 4260,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 303,
+          "event": "call",
+          "thread_id": 4260,
+          "defined_class": "app_views_layouts__header_html_erb",
+          "method_id": "render",
+          "path": "app/views/layouts/_header.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 204660,
+            "value": "#<ActionView::PartialRenderer:0x000000011d5db948>"
           }
         }
       ]

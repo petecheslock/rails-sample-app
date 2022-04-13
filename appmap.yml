@@ -1,5 +1,5 @@
 ---
-name: petecheslock@gmail.com/rails-sample
+name: petecheslock/rails-sample
 packages:
 - path: app/controllers
 - path: app/models
