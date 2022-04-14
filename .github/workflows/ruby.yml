@@ -26,10 +26,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Extract branch name
-      shell: bash
-      run: echo "::set-output name=branch::$(echo ${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}})"
-      id: extract_branch
     - uses: actions/checkout@v3
     - name: Set up Ruby
     # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
@@ -43,7 +39,5 @@ jobs:
       run: bundle exec rails webpacker:compile
     - name: Run tests
       run: bundle exec rake test
-    - name: Output git rev
-      run: git rev-parse HEAD
     - name: AppMap Analysis
-      run: npx @appland/scanner ci --appmap-dir tmp/appmap  -C ${{github.event.pull_request.base.sha}} -b ${{github.event.pull_request.head.ref}}
+      run: npx @appland/scanner ci --appmap-dir tmp/appmap  -C ${{github.event.pull_request.head.sha}} -b ${{github.event.pull_request.head.ref}}
