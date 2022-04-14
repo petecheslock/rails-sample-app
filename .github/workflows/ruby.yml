@@ -19,7 +19,6 @@ permissions:
 env:
   APPMAP: true
   APPLAND_API_KEY: "${{secrets.APPLAND_API_KEY}}"
-  GH_TOKEN: "${{secrets.GH_TOKEN}}"
 
 jobs:
   test:
@@ -45,4 +44,4 @@ jobs:
     - name: Run tests
       run: bundle exec rake test
     - name: AppMap Analysis
-      run: npx @appland/scanner ci --appmap-dir tmp/appmap --update-commit-status -C $(git rev-parse HEAD) -b ${{steps.extract_branch.outputs.branch}}
+      run: npx @appland/scanner ci -d tmp/appmap
