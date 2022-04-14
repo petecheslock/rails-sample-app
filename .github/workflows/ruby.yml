@@ -41,3 +41,7 @@ jobs:
       run: bundle exec rake test
     - name: AppMap Analysis
       run: npx @appland/scanner ci --appmap-dir tmp/appmap  -C ${{github.event.pull_request.head.sha}} -b ${{github.event.pull_request.head.ref}}
+      if: ${{ github.ref != 'refs/heads/main' }}
+    - name: AppMap Analysis
+      run: npx @appland/scanner ci --appmap-dir tmp/appmap -C $(git rev-parse HEAD) -b $(git branch --show-current)
+      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
