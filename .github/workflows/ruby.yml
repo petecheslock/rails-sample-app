@@ -46,4 +46,4 @@ jobs:
     - name: Output git rev
       run: git rev-parse HEAD
     - name: AppMap Analysis
-      run: npx @appland/scanner ci --appmap-dir tmp/appmap  -C $(git rev-parse HEAD) -b ${{github.event.pull_request.head.ref}}
+      run: npx @appland/scanner ci --appmap-dir tmp/appmap  -C ${{github.event.pull_request.base.sha}} -b ${{github.event.pull_request.head.ref}}
