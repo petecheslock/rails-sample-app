@@ -29,6 +29,8 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+    - name: Webpack install
+      run: bundle exec rails webpacker:install
     - name: Webpacker Compile
       run: bundle exec rails webpacker:compile
     - name: Run tests
