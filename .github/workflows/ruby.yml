@@ -44,4 +44,4 @@ jobs:
     - name: Run tests
       run: bundle exec rake test
     - name: AppMap Analysis
-      run: npx @appland/scanner ci --appmap-dir tmp/appmap --fail -C $(git rev-parse HEAD) -b ${{github.event.pull_request.head.ref}}
+      run: npx @appland/scanner ci --appmap-dir tmp/appmap -C $(git rev-parse HEAD) -b ${{github.event.pull_request.head.ref}}
