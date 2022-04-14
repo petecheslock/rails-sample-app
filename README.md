@@ -118,5 +118,4 @@ Experience shows that comparing code with the reference app is often helpful for
 
 Suspected errors, typos, and bugs can be emailed to <support@learnenough.com>. All such reports are gratefully received, but please double-check with the [online version of the tutorial](https://www.railstutorial.org/book) and this reference app before submitting.
 
-
-Some new stuff
+Updated Readme Stuff
