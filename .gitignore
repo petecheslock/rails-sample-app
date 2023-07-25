@@ -39,3 +39,8 @@ yarn-debug.log*
 
 # Ignore db test files.
 db/test.*
+
+# AppMap
+/.appmap
+/vendor
+
